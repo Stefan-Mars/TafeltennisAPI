@@ -37,6 +37,6 @@ Gebruik het volgende commando om de ontwikkelingsserver te starten:
 
     php artisan serve
 
-## App
+## Xamarin App
 
-[Link naar App](https://github.com/Stefan-Mars/Tafeltennis)
+[Link naar Xamarin App](https://github.com/Stefan-Mars/Tafeltennis)
