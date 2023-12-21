@@ -1,4 +1,4 @@
-# API gemaakt met laravel voor mijn tafeltennis Xamarin app
+# API gemaakt met laravel voor mijn Xamarin app
 
 ## Installatie
 
@@ -37,3 +37,6 @@ Gebruik het volgende commando om de ontwikkelingsserver te starten:
 
     php artisan serve
 
+## App
+
+[Link naar App](https://github.com/Stefan-Mars/Tafeltennis)
