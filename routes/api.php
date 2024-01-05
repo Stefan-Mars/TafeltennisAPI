@@ -23,10 +23,10 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 Route::get('/info', [PlayerController::class, 'info']);
 
-Route::get('/players', [PlayerController::class, 'index']); // GET request to fetch items
-Route::post('/player', [PlayerController::class, 'store']); // POST request to create an item
-Route::get('/player/{id}', [PlayerController::class, 'show']); // GET request to fetch a specific item
-Route::put('/player/{id}', [PlayerController::class, 'update']); // PUT request to update an item
-Route::delete('/player/{id}', [PlayerController::class, 'destroy']); // DELETE request to delete an item
+Route::get('/players', [PlayerController::class, 'index']); // GET request to fetch player
+Route::post('/player', [PlayerController::class, 'store']); // POST request to create an player
+Route::get('/player/{id}', [PlayerController::class, 'show']); // GET request to fetch a specific player
+Route::put('/player/{id}', [PlayerController::class, 'update']); // PUT request to update an player
+Route::delete('/player/{id}', [PlayerController::class, 'destroy']); // DELETE request to delete an player
 
 

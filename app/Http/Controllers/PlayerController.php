@@ -22,7 +22,10 @@ class PlayerController extends Controller
         return response()->json($player, 200);
     }
     public function update(Request $request, $id) {
-        $player = Player::findOrFail($id);
+        $player = Player::find($id);
+        if (!$player) {
+            return response()->json('Player not found', 404);
+        }
         $player->Wins = $request->Wins;
         $player->save();
     
