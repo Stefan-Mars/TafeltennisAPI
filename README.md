@@ -12,7 +12,7 @@ Kloon de repository met het volgende commando in de command prompt:
 
 Ga naar de gekloonde map in de command prompt en voer het volgende commando uit:
 
-    composer update
+    composer install
 
 ### Omgeving instellen
 
