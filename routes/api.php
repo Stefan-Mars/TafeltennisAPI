@@ -22,7 +22,6 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 
 
 Route::get('/info', [PlayerController::class, 'info']);
-
 Route::get('/players', [PlayerController::class, 'index']); // GET request to fetch player
 Route::post('/player', [PlayerController::class, 'store']); // POST request to create an player
 Route::get('/player/{id}', [PlayerController::class, 'show']); // GET request to fetch a specific player
